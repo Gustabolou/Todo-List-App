@@ -83,6 +83,7 @@ ul li::before {
     background-position: center;
     top: 8px;
     left: 8px;
+    transition: transform 0.3s ease-in-out; 
 }
 
 ul li.checked {
@@ -92,6 +93,11 @@ ul li.checked {
 
 ul li.checked::before {
     background-image: url(./images/checked.png);
+    position: absolute;
+    left: 8px; 
+    top: 8px;
+    transform-origin: center; 
+    animation: transformImg 1s ease forwards;  
 }
 
 ul li span {
@@ -106,9 +112,51 @@ ul li span {
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    transition: opacity 0.5s ease, transform 0.3s ease; 
 }
 
 ul li span:hover {
     background: #edeef0;
     color: #ff5945;
+}
+
+@keyframes transformImg {
+    0% {
+        background-image: url(./images/checked.png);
+        transform: scale(1) rotate(0deg); 
+        opacity: 1; 
+    }
+    30% {
+        transform: scale(1.5) rotate(30deg); 
+        opacity: 0.7; 
+    }
+    60% {
+        transform: scale(1.2) rotate(180deg); 
+        opacity: 1; 
+    }
+    100% {
+        background-image: url(./images/checked.png);
+        transform: scale(1) rotate(360deg); 
+        opacity: 1; 
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    80% {
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+ul li span.fade,
+ul li.fade {
+    animation: fadeOut 0.5s forwards;
 }
