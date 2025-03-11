@@ -54,7 +54,9 @@ cd todo-list-app
 
 ## Future Improvements
 🚀 Add a filter to view only pending or completed tasks.
+
 🚀 Allow direct task editing.
+
 🚀 Implement light and dark themes.
 
 ## Autor
