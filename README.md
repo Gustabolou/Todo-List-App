@@ -1,4 +1,5 @@
 # todo-list-app
+<<<<<<< HEAD
 
 Este é um projeto de Todo-List simples e funcional, desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite adicionar, marcar como concluída e remover tarefas, com persistência de dados usando `localStorage`.
 
@@ -60,3 +61,6 @@ cd todo-list-app
 ## Autor
 - [Luís Gustavo](https://github.com/Gustabolou)
 
+=======
+A simple Todo List (Task List) app built with HTML, CSS, and JavaScript. It allows users to add, mark as completed, and remove tasks, with data persistence using localStorage. Perfect for managing your tasks efficiently!
+>>>>>>> 4be4945518e8db9ab772a8b0193b8fc79224dcf2
