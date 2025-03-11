@@ -158,5 +158,6 @@ ul li span:hover {
 
 ul li span.fade,
 ul li.fade {
-    animation: fadeOut 0.5s forwards;
+    animation: fadeOut 0.3s forwards;
 }
+
