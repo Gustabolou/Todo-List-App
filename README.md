@@ -1,31 +1,30 @@
 # todo-list-app
-<<<<<<< HEAD
 
-Este é um projeto de Todo-List simples e funcional, desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite adicionar, marcar como concluída e remover tarefas, com persistência de dados usando `localStorage`.
+This is a simple and functional Todo-List project, built with **HTML**, **CSS** e **JavaScript**. It allows you to add, mark as completed, and remove tasks, with data persistence using `localStorage`.
 
-## Tecnologias Utilizadas
+## Technologies Used
 - **HTML5**
-- **CSS3** (Design responsivo)
-- **JavaScript** (Manipulação da DOM e armazenamento local)
+- **CSS3** (Responsive Design)
+- **JavaScript** (DOM Manipulation and localStorage)
 
-## Funcionalidades
-✅ Adicionar novas tarefas
-✅ Marcar tarefas como concluídas
-✅ Remover tarefas
-✅ Salvar automaticamente as tarefas no `localStorage`
+## Features
+✅ Add new tasks
+✅ Mark tasks as completed
+✅ Remove tasks
+✅ Automatically save tasks in `localStorage`
 
-## Como Rodar o Projeto
-1. Clone este repositório:
+## How to Run the Project
+1. Clone this repository:
 ```bash
-git clone https://github.com/seu-usuario/todo-list-app.git
+git clone https://github.com/Gustabolou/todo-list-app.git
 ```
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 ```bash
 cd todo-list-app
 ```
-3. Abra o arquivo `index.html` diretamente no navegador.
+3. Open the `index.html` file directly in your browser.
 
-## Estrutura de Arquivos
+## File Structure
 ```
 .
 ├── index.html
@@ -38,29 +37,25 @@ cd todo-list-app
 │       └── checked.png
 ```
 
-## Explicação do Código
+## Code Explanation
 ### HTML (`index.html`)
-- Estrutura principal do aplicativo.
-- Contém o campo de entrada para novas tarefas e a lista de tarefas.
+- Main structure of the application.
+- Contains the input field for new tasks and the task list.
 
 ### CSS (`style.css`)
-- Estilização responsiva com layout elegante e moderno.
-- Uso de gradiente para o fundo e um card branco para destacar o conteúdo.
+- Responsive styling with an elegant, modern layout.
+- Uses a gradient for the background and a white card to highlight the content.
 
 ### JavaScript (`script.js`)
-- **`addTask()`**: Adiciona uma nova tarefa à lista. Se o campo estiver vazio, uma mensagem de alerta é exibida.
-- **`saveData()`**: Salva as tarefas no `localStorage` para manter os dados mesmo após recarregar a página.
-- **`displayTask()`**: Exibe as tarefas salvas ao iniciar o aplicativo.
-- **Event Listener**: Permite marcar uma tarefa como concluída ou removê-la.
+- **`addTask()`**: Adds a new task to the list. If the input field is empty, an alert message is displayed.
+- **`saveData()`**: Saves tasks to `localStorage` to preserve data even after the page is reloaded.
+- **`displayTask()`**: Displays the saved tasks when the app starts.
+- **Event Listener**: Allows you to mark a task as completed or remove it.
 
-## Melhorias Futuras
-🚀 Adicionar filtro para visualizar apenas tarefas pendentes ou concluídas.
-🚀 Permitir edição direta das tarefas.
-🚀 Implementar temas claros e escuros.
+## Future Improvements
+🚀 Add a filter to view only pending or completed tasks.
+🚀 Allow direct task editing.
+🚀 Implement light and dark themes.
 
 ## Autor
 - [Luís Gustavo](https://github.com/Gustabolou)
-
-=======
-A simple Todo List (Task List) app built with HTML, CSS, and JavaScript. It allows users to add, mark as completed, and remove tasks, with data persistence using localStorage. Perfect for managing your tasks efficiently!
->>>>>>> 4be4945518e8db9ab772a8b0193b8fc79224dcf2
