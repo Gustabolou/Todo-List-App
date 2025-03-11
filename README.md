@@ -1,4 +1,4 @@
-# Todo-List App
+# todo-list app
 
 Este é um projeto de Todo-List simples e funcional, desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite adicionar, marcar como concluída e remover tarefas, com persistência de dados usando `localStorage`.
 
